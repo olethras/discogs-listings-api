@@ -52,7 +52,7 @@ print(result)
    "listing":[
       {
          "title":"Skrillex - Skrillex Vol 2 (12\", Unofficial, W/Lbl)",
-         "condition_media":"Media:",
+         "condition_media":"Very Good Plus (VG+)",
          "seller":"mika35",
          "price":"€60.00",
          "condition_sleeve":"None",
@@ -62,7 +62,7 @@ print(result)
       },
       {
          "title":"Skrillex - Skrillex Vol 2 (12\", Unofficial, W/Lbl)",
-         "condition_media":"Media:",
+         "condition_media":"Very Good Plus (VG+)",
          "seller":"Decktronix_Backroom",
          "price":"£60.00",
          "condition_sleeve":"Generic",
@@ -70,7 +70,5 @@ print(result)
          "community_want":"255",
          "release_link":"/release/3716102-Skrillex-Skrillex-Vol-2"
       }
-   ],
-   "id":"3716102",
-   "type":"release"
+   ]
 }
