@@ -53,7 +53,7 @@ class DiscogsScraper:
 
         condition_media = obj.select_one(".item_condition")
         if condition_media:
-            item['condition_media'] = condition_media.select_one("span:nth-of-type(2)").get_text().strip()
+            item['condition_media'] = condition_media.select_one("span:nth-of-type(3)").get_text().split('\n')[1].strip()
 
         seller_info = obj.select_one(".seller_info")
         if seller_info:
