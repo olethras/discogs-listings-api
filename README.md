@@ -38,3 +38,39 @@ api = DiscogsMarketplaceAPI()
 params = {'id': '3716102', 'type': 'release'}
 result = api.search(params)
 print(result)
+```
+
+#### Response
+
+```json
+{
+   "pagination":{
+      "items":2.0,
+      "hasNext":false,
+      "totalPages":0
+   },
+   "listing":[
+      {
+         "title":"Skrillex - Skrillex Vol 2 (12\", Unofficial, W/Lbl)",
+         "condition_media":"Media:",
+         "seller":"mika35",
+         "price":"€60.00",
+         "condition_sleeve":"None",
+         "community_have":"64",
+         "community_want":"255",
+         "release_link":"/release/3716102-Skrillex-Skrillex-Vol-2"
+      },
+      {
+         "title":"Skrillex - Skrillex Vol 2 (12\", Unofficial, W/Lbl)",
+         "condition_media":"Media:",
+         "seller":"Decktronix_Backroom",
+         "price":"£60.00",
+         "condition_sleeve":"Generic",
+         "community_have":"64",
+         "community_want":"255",
+         "release_link":"/release/3716102-Skrillex-Skrillex-Vol-2"
+      }
+   ],
+   "id":"3716102",
+   "type":"release"
+}
