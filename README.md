@@ -31,17 +31,10 @@ This class provides methods for searching the Discogs marketplace.
 #### Example Usage:
 
 ```python
-from bs4 import BeautifulSoup
-import cloudscraper
+from lib.api import DiscogsMarketplaceAPI
 
-# Instantiate the API
 api = DiscogsMarketplaceAPI()
 
-# Define search parameters
 params = {'id': '3716102', 'type': 'release'}
-
-# Perform the search
 result = api.search(params)
-
-# Print the result
 print(result)
