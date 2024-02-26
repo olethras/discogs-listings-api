@@ -1,7 +1,7 @@
 ### Discogs Marketplace Lisitngs Unofficial API Documentation
 
 #### Overview
-The Discogs Marketplace API allows you to search for items on the Discogs marketplace by various parameters such as ID, type, and pagination options. It utilizes BeautifulSoup for HTML parsing and Cloudscraper for handling web scraping tasks.
+The Discogs Marketplace Unoffical Python API allows you to search for items on the Discogs marketplace by various parameters such as ID, type, and pagination options. It utilizes BeautifulSoup for HTML parsing and Cloudscraper for handling web scraping tasks.
 
 #### Class: `DiscogsMarketplaceAPI`
 This class provides methods for searching the Discogs marketplace.
