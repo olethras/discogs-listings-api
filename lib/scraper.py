@@ -81,7 +81,7 @@ class DiscogsScraper:
     def _process_pagination_response(self, pagination_body, params):
         result = {}
         pagination_total = pagination_body[0].select_one(".pagination_total").get_text()
-        result['items'] = float(pagination_total.split("of")[1].strip().replace(',', '')) if pagination_total else 0
+        result['items'] = int(pagination_total.split("of")[1].strip().replace(',', '')) if pagination_total else 0
         result['hasNext'] = bool(pagination_body[0].select_one(".pagination_next"))
         per_page = params.get('pagination', {}).get('per_page', 25)
         result['totalPages'] = int(result['items'] / per_page) if per_page != 0 else 0
