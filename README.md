@@ -45,7 +45,7 @@ print(result)
 ```json
 {
    "pagination":{
-      "items":2.0,
+      "items":2,
       "hasNext":false,
       "totalPages":0
    },
